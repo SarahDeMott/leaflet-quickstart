@@ -160,6 +160,7 @@ $.getJSON(velibStationUrl, stationData => {
 
 // Or, we can use $.getJSON() on our own file of the Parisian Arrondisements.
 
+/*
 $.getJSON("paris_arr.geojson", geodata => {
   L.geoJSON(geodata, {
     style() {
@@ -169,10 +170,9 @@ $.getJSON("paris_arr.geojson", geodata => {
         fillOpacity: 0.0
       };
     }
-  }).bindTooltip (layer => {
-    return layer.feature.properties ["L_AR"];
   }).addTo(map);
 });
+*/
 
 // Use jQuery to manipulate the html elements.
 // Change the card header:
